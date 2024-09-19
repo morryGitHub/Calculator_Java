@@ -1,61 +1,62 @@
 # Working Calculator
 
-## Описание
+## Description
 
-Это простое Android-приложение калькулятора, написанное на Java. Оно поддерживает базовые математические операции, такие как сложение, вычитание, умножение, деление и процентные вычисления. Также приложение имеет функционал копирования и вставки текста, а также реагирует на жесты, например, для удаления последней цифры.
+This is a simple Android calculator application written in Java. It supports basic mathematical operations such as addition, subtraction, multiplication, division, and percentage calculations. The app also features text copying and pasting, as well as gesture support for deleting the last digit.
 
-## Основные функции
+## Key Features
 
-- **Сложение, вычитание, умножение и деление.**
-- **Процентные вычисления.**
-- **Удаление последней цифры с помощью жеста свайп.**
-- **Копирование и вставка текста.**
-- **Изменение знака числа на плюс или минус.**
+- **Addition, subtraction, multiplication, and division.**
+- **Percentage calculations.**
+- **Delete the last digit using a swipe gesture.**
+- **Copying and pasting text.**
+- **Change the sign of a number to positive or negative.**
 
-## Как использовать приложение
+## How to Use the App
 
-1. **Ввод чисел**:
-   - Нажимайте кнопки с цифрами для ввода чисел.
-   - Можно использовать кнопку с точкой для ввода десятичных чисел.
+1. **Input Numbers**:
+   - Tap the number buttons to input digits.
+   - Use the dot button to enter decimal numbers.
 
-2. **Математические операции**:
-   - Выберите одну из операций: сложение (`+`), вычитание (`-`), умножение (`×`), деление (`÷`).
-   - После ввода числа и выбора операции введите второе число и нажмите `=`, чтобы увидеть результат.
-   
-3. **Процент**:
-   - Нажмите на кнопку `%`, чтобы посчитать процент от числа.
-   
-4. **Очистка**:
-   - Используйте кнопку `AC`, чтобы сбросить все значения и начать заново.
-   
-5. **Удаление последней цифры**:
-   - Проведите по экрану слева направо для удаления последней цифры.
+2. **Mathematical Operations**:
+   - Choose one of the operations: addition (`+`), subtraction (`-`), multiplication (`×`), division (`÷`).
+   - After entering a number and selecting an operation, input a second number and press `=` to see the result.
 
-6. **Копирование и вставка**:
-   - Нажмите на текстовое поле, затем удерживайте, чтобы открыть контекстное меню, откуда можно скопировать или вставить текст.
+3. **Percentage**:
+   - Press the `%` button to calculate the percentage of a number.
 
-## Особенности
+4. **Clear**:
+   - Use the `AC` button to reset all values and start over.
 
-- Если вы пытаетесь разделить на ноль, приложение покажет ошибку.
-- Если число слишком длинное, шрифт уменьшится, чтобы всё число поместилось на экране.
-- Использование вибрации для подтверждения нажатий.
+5. **Delete the Last Digit**:
+   - Swipe across the screen from left to right to delete the last digit.
 
-## Требования
+6. **Copy and Paste**:
+   - Tap on the text field, then press and hold to open the context menu from which you can copy or paste text.
 
-- **Android Studio** для сборки проекта.
-- **Минимальная версия SDK**: 21 (Android 5.0).
+## Features
 
-## Установка
+- If you attempt to divide by zero, the app will display an error.
+- If a number is too long, the font size will decrease to fit the number on the screen.
+- Vibration feedback is used to confirm button presses.
 
-1. Клонируйте репозиторий с исходным кодом.
-2. Откройте проект в Android Studio.
-3. Синхронизируйте зависимости, нажав "Sync Project with Gradle Files".
-4. Запустите эмулятор или подключите Android-устройство и нажмите "Run".
+## Requirements
 
-## Частые вопросы
+- **Android Studio** to build the project.
+- **Minimum SDK version**: 21 (Android 5.0).
 
-**Что делать, если я случайно ввёл неправильное число?**  
-Проведите пальцем по экрану слева направо, чтобы удалить последнюю цифру.
+## Installation
 
-**Почему я вижу "Error"?**  
-Скорее всего, вы попытались выполнить некорректную операцию, например, разделить на ноль. Просто нажмите `AC`, чтобы начать заново.
+1. Clone the repository with the source code.
+2. Open the project in Android Studio.
+3. Sync the dependencies by clicking "Sync Project with Gradle Files."
+4. Launch the emulator or connect an Android device and click "Run."
+
+## Frequently Asked Questions
+
+**What should I do if I accidentally entered the wrong number?**  
+Swipe across the screen from left to right to delete the last digit.
+
+**Why am I seeing "Error"?**  
+You likely attempted an invalid operation, such as dividing by zero. Simply press `AC` to start over.
+
